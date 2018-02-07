@@ -3,8 +3,7 @@
 //<![CDATA[
 var key = window.location.href.split("go/")[1].replace("/","")
 var urls={
-    'cara-iklan-google':'http://www.101s.info/p/panduan-belajar-iklan-google-adwords.html',
-    'blogging':"http://www.101s.info/search/label/blogging",
+    '001':'https://borutosubtitleindonesia2.blogspot.co.id/2018/02/boruto-episode-01-sub-indo.html',
 }
 if(key){
     if(urls[key]){
