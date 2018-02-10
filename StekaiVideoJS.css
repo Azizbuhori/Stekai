@@ -20,7 +20,7 @@
   font-style: normal; }
 
 /*If it is hidden => diplay: none*/
-.vjs-hidden, .vjs-has-started .vjs-big-play-button, .vjs-control-text, .vjs-remaining-time, .video-js.vjs-controls-disabled .vjs-control-bar {display: none;}
+.vjs-hidden, .vjs-remaining-time, .video-js.vjs-controls-disabled .vjs-control-bar {display: none;}
 
 .vjs-icon-play, .video-js .vjs-big-play-button, .video-js .vjs-play-control {
   font-family: VideoJS;
