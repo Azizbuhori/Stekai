@@ -1,3 +1,20 @@
+img#vjs-logobrand-image {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	transition: visibility 0.1s ease 0s, opacity 0.1s ease 0s;
+    visibility: visible;
+}
+.vjs-user-inactive img#vjs-logobrand-image {
+	visibility: hidden;
+}
+.vjs-user-inactive.vjs-paused img#vjs-logobrand-image {
+	visibility: visible;
+}
+.vjs-ad-playing a#vjs-logobrand-image-destination {
+	display: none;
+}
+
 @charset "UTF-8";
 .video-js .vjs-big-play-button:before, .video-js .vjs-control:before, .video-js .vjs-modal-dialog, .vjs-modal-dialog .vjs-modal-dialog-content {
   position: absolute;
